@@ -1,7 +1,5 @@
 <?php include "header.php"; ?>
 
-	<title>File Name</title>
-
 	<h1>File Name</h1>
 
 	<audio controls src = "C:\Users\David Choo\Downloads\HONNE - Warm On A Cold Night.mp3"></audio> <!--This is a temporary file - replace with file pulled from database -->
