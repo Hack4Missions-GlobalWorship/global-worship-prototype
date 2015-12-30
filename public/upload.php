@@ -22,30 +22,30 @@
 
 	<form>
 		Project Name:
-		<input type="text" name = "projectname">
+		<input type="text" class="filter-field" name = "projectname">
 		<br><br>
 	</input>
 
 	Song Title:
-	<input type="text" name = "songtitle">
+	<input type="text" class="filter-field" name = "songtitle">
 	<br><br>
 	
 	Artist:
-	<input type="text" name = "artist">
+	<input type="text" class="filter-field" name = "artist">
 	<br><br>
 
 	Genre:
-	<input type="text" name = "genre">
+	<input type="text" class="filter-field" name = "genre">
 	<br><br>
 	
 	Theme:
-	<input type="text" name = "theme">
+	<input type="text" class="filter-field" name = "theme">
 	<br><br>
 
 	<h2>Location</h2>
 
 	Continent:
-	<select>
+	<select class="filter-field" >
 		<option value = "africa">Africa</option>
 		<option value = "antarctica">Antarctica</option>
 		<option value = "asia">Asia</option>
@@ -57,14 +57,14 @@
 	<br><br>
 
 	Country:
-	<select>
+	<select class="filter-field" >
 		<option value = "turkey">Turkey</option>
 		<option value = "unitedstates">United States</option>
 	</select>
 	<br><br>
 
 	Region:
-	<input type="text" name = "region">
+	<input type="text" class="filter-field" name = "region">
 	<br><br>
 
 	<h2>File(s)</h2>
@@ -76,25 +76,25 @@
 	<h2>Other</h2>
 
 	Tagwords (separate by commas):
-	<input type="text" name = "tags">
+	<input type="text" class="filter-field" name = "tags">
 	<br><br>
 
 	Copyright: <!-- Need to find copyright options and populate dropdown-->
-	<select>
+	<select class="filter-field" >
 		<option value = "sample">Sample</option>
 	</select>
 	<br><br>
 
 	Publisher:
-	<input type="text" name = "publisher">
+	<input type="text" class="filter-field" name = "publisher">
 	<br><br>
 
 	iTunes Link:
-	<input type="text" name = "iTunesLink">
+	<input type="text" class="filter-field" name = "iTunesLink">
 	<br><br>
 
 	Amazon Link:
-	<input type="text" name = "amazonLink">
+	<input type="text" class="filter-field" name = "amazonLink">
 	<br><br>
 
 	<input type="submit" class="input-button">
