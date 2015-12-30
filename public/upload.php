@@ -69,7 +69,7 @@
 
 	<h2>File(s)</h2>
 
-	<input onclick="addFile()";  type="button" value= "Add File">
+	<input onclick="addFile()";  type="button" class="input-button" value= "Add File">
 	<div  id="buttons"></div>
 	<br>
 
@@ -97,7 +97,7 @@
 	<input type="text" name = "amazonLink">
 	<br><br>
 
-	<input type="submit">
+	<input type="submit" class="input-button">
 
 </form>
 
