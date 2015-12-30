@@ -12,7 +12,7 @@
         </div>
     </div>
     <div class="row top-padding2">
-        <div class="col-sm-6" style="padding-left:20px;border-right-style:solid;">
+        <div class="col-sm-6" style="margin-left:20px;border-right-style:solid;">
             <div class="centered-content right-float">
                 <a href="search.php">
                     <img src="img/search-blue.png" alt="Search" href="search.php"/>
@@ -21,7 +21,7 @@
                 <a href="search.php" type="button" class="btn btn-outlined top-padding">Search Catalog</a>
             </div>
         </div>
-        <div class="col-sm-6" style="padding-right:20px;">
+        <div class="col-sm-6" style="margin-right:20px;">
             <div class="centered-content left-float">
                 <a href="upload.php">
                     <img src="img/upload-blue.png" alt="Upload" />
