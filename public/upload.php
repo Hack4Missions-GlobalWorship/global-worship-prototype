@@ -97,7 +97,7 @@
 	<input type="text" class="filter-field" name = "amazonLink">
 	<br><br>
 
-	<input type="submit" class="input-button">
+	<input type="submit" class="input-button"><br>
 
 </form>
 
