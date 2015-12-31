@@ -79,7 +79,30 @@
         </div>
         <input type="submit" value="Submit" class="input-button">
         </form>
-      <div id="searchResults"></div>
+      <div id="searchResults">
+        <table>
+          <tr>
+            <th>ID</th>
+            <th>Language</th>
+            <th>Song Name</th>
+          </tr>
+          <?php  foreach ($result as $row): ?>
+          <tr>
+            <td>
+              <?=htmlspecialchars($row['id'])?>
+            </td>
+            <td>Manainkan</td>
+            <td>
+              <a href=""
+                <?=htmlspecialchars($row['amazon_link'])?>><?=htmlspecialchars($row['song_name'])?>
+              </a>
+            </td>
+          </tr>
+          <?php endforeach ?>
+        </table>
+        <?php include "footer.php"; ?>
+      </html>
+</div>
       <div id="pageNavigation">
         <a>
           <input type="button" value="previous" id="previous" />
@@ -93,25 +116,4 @@
 
   <br>
 
-    <table>
-      <tr>
-        <th>ID</th>
-        <th>Language</th>
-        <th>Song Name</th>
-      </tr>
-      <?php  foreach ($result as $row): ?>
-      <tr>
-        <td>
-          <?=htmlspecialchars($row['id'])?>
-        </td>
-        <td>Manainkan</td>
-        <td>
-          <a href=""
-            <?=htmlspecialchars($row['amazon_link'])?>><?=htmlspecialchars($row['song_name'])?>
-          </a>
-        </td>
-      </tr>
-      <?php endforeach ?>
-    </table>
-    <?php include "footer.php"; ?>
-  </html>
+    
