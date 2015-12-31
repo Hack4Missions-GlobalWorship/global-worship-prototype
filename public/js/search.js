@@ -75,7 +75,7 @@ $(document).ready(function () {
     $("#genre").val(searchParams.genre || "All");
 
     //todo: get search results
-    var searchResults = [{ id: 1, projectName: "project 1", composer: "composer 1" }, { id: 2, projectName: "project 2", composer: "composer 2" }];
+    var searchResults = [/*{ id: 1, projectName: "project 1", composer: "composer 1" }, { id: 2, projectName: "project 2", composer: "composer 2" }*/];
     var curResult;
     for (curResult = 0; curResult < searchResults.length; curResult++) {
         var searchResult = $("<div></div>");
@@ -86,7 +86,7 @@ $(document).ready(function () {
     }
     
     //todo: get numPages
-    var numPages = Number.POSITIVE_INFINITY;
+    var numPages = 1;//Number.POSITIVE_INFINITY;
 
     // set up the previous button
     if (searchParams.page > 1) {
