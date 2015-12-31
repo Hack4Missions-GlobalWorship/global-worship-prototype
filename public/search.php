@@ -100,7 +100,6 @@
           </tr>
           <?php endforeach ?>
         </table>
-        <?php include "footer.php"; ?>
 </div>
       <div id="pageNavigation">
         <a>
@@ -116,4 +115,4 @@
   <br>
 
       </html>
-    
+  <?php include "footer.php"; ?>   
