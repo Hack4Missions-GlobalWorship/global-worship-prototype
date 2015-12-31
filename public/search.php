@@ -50,7 +50,7 @@
   <link href="css/search.css" rel="stylesheet">
     <div class="wrapper">
       <h2>Search</h2>
-      <form action="search.html">
+      <form action="search.php">
         <div class="container">
           <div class="col-1of2 col-left">
             <div class="form-div">
